@@ -1,3 +1,4 @@
+# & ".\getData.ps1"
 $slotName = '$(slotname)'
 $branch = '$(branch)'
 $jsonget = '$(PrWidTable)'
