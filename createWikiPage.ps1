@@ -1,4 +1,4 @@
-$encodedCreds = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes(":xajv7oeegbpycfvijhbrqs4cx7auyvuagrg5pzewpho32ptoirma"))
+$encodedCreds = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes($accessToken))
 $wikiPagePath = '/Release Notes'
 $pageExist = 'False'
 $Headers = @{
