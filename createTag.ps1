@@ -4,7 +4,7 @@ $tagList = @()
 $currentSprintReleases = @()
 
 # Хэдер для работы с кодом
-$encodedCredsCode = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes($codeAccessToken))
+$encodedCredsCode = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes($accessToken))
 $HeadersCode = @{
     'Authorization' = "Basic $encodedCredsCode"
     'Accept'        = "application/json"
